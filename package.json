@@ -29,6 +29,7 @@
   "homepage": "https://github.com/danielekeberg/workflow#readme",
   "lint-staged": {
     "*.{js,css,html,md}": "prettier --write",
-    "*.js": "eslint --cache --fix"
+    "*.js": "eslint --cache --fix",
+    "*.{js,css,md}": "prettier --write"
   }
 }
